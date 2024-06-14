@@ -3,27 +3,35 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=<device-width>, initial-scale=1.0" />
+    <link rel="stylesheet" href="src/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
     <title>Weather</title>
   </head>
   <body>
-    <header>
-      <form>
-        <input type="search" placeholder="Enter a City" required />
-        <input type="submit" value="Search" />
-      </form>
-    </header>
-    <main>
-      <div>
-        <h1>Roma</h1>
-        <p>
-          Tuesday 15:55, sunny
-          <br />
-          Humidity: 35%, Wind: 3.33km/h
-        </p>
-      </div>
-      <div>☀️ 15°C</div>
-    </main>
-
+    <div class="weather-box">
+      <header>
+        <form>
+          <input type="search" placeholder="Enter a City" required />
+          <input type="submit" value="Search" />
+        </form>
+      </header>
+      <main>
+        <div>
+          <h1>Roma</h1>
+          <p>
+            Tuesday 15:55, sunny
+            <br />
+            Humidity: 35%, Wind: 3.33km/h
+          </p>
+        </div>
+        <div>☀️ 15°C</div>
+      </main>
+    </div>
     <footer>
       Coded by
       <a href="https://github.com/leacorrina" target="_blank">Lea White</a> on
