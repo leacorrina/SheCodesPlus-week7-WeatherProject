@@ -15,12 +15,13 @@
   <body>
     <div class="weather-box">
       <header>
-        <form class="search-form">
+        <form class="search-form" id="search-form">
           <input
             type="search"
             placeholder="Enter a City"
             required
             class="search-form-input"
+            id="search-form-input"
           />
           <input type="submit" value="Search" class="search-form-button" />
         </form>
@@ -28,7 +29,7 @@
       <main>
         <div class="weather-app-data">
           <div>
-            <h1 class="weather-app-city">Roma</h1>
+            <h1 class="weather-app-city" id="city">Roma</h1>
             <p class="weather-app-details">
               Tuesday 15:55, Sunny
               <br />
@@ -42,21 +43,23 @@
           </div>
         </div>
       </main>
+
+      <footer>
+        Coded by
+        <a href="https://github.com/leacorrina" target="_blank">Lea White</a> on
+        <a
+          href="https://github.com/leacorrina/SheCodesPlus-week7-WeatherProject"
+          target="_blank"
+          >GitHub</a
+        >
+        and hosted by
+        <a
+          href="https://app.netlify.com/sites/lea-white-weather-project/overview"
+          target="_blank"
+          >Netlify</a
+        >
+      </footer>
     </div>
-    <footer>
-      Coded by
-      <a href="https://github.com/leacorrina" target="_blank">Lea White</a> on
-      <a
-        href="https://github.com/leacorrina/SheCodesPlus-week7-WeatherProject"
-        target="_blank"
-        >GitHub</a
-      >
-      and hosted by
-      <a
-        href="https://app.netlify.com/sites/lea-white-weather-project/overview"
-        target="_blank"
-        >Netlify</a
-      >
-    </footer>
+    <script src="src/index.js"></script>
   </body>
 </html>
