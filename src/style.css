@@ -1,64 +1,9 @@
+
 body {
   background-color: #faf8f5;
-  .lato-thin {
-    font-family: "Lato", sans-serif;
-    font-weight: 100;
-    font-style: normal;
-  }
-
-  .lato-light {
-    font-family: "Lato", sans-serif;
-    font-weight: 300;
-    font-style: normal;
-  }
-
-  .lato-regular {
-    font-family: "Lato", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-  }
-
-  .lato-bold {
-    font-family: "Lato", sans-serif;
-    font-weight: 700;
-    font-style: normal;
-  }
-
-  .lato-black {
-    font-family: "Lato", sans-serif;
-    font-weight: 900;
-    font-style: normal;
-  }
-
-  .lato-thin-italic {
-    font-family: "Lato", sans-serif;
-    font-weight: 100;
-    font-style: italic;
-  }
-
-  .lato-light-italic {
-    font-family: "Lato", sans-serif;
-    font-weight: 300;
-    font-style: italic;
-  }
-
-  .lato-regular-italic {
-    font-family: "Lato", sans-serif;
-    font-weight: 400;
-    font-style: italic;
-  }
-
-  .lato-bold-italic {
-    font-family: "Lato", sans-serif;
-    font-weight: 700;
-    font-style: italic;
-  }
-
-  .lato-black-italic {
-    font-family: "Lato", sans-serif;
-    font-weight: 900;
-    font-style: italic;
-  }
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-style: normal;
 }
 .weather-box {
   background: white;
@@ -83,7 +28,7 @@ header {
 }
 
 .search-form-button {
-  background-color: blueviolet;
+  background-color: #765abc;
   padding: 15px 25px;
   font-size: 16px;
   border: none;
@@ -105,13 +50,13 @@ main{
 }
 .weather-app-details{
     font-size: 16px;
-    color: rgba(39,33,6,0.4);
+    color: rgba(39,33,66,0.4);
     line-height: 24px;
     font-weight: 500;
 
 }
 .weather-app-details strong {
-    color: blue;
+    color: #4a75f2;
 }
 
 .weather-app-temp-container {
