@@ -47,7 +47,31 @@ function processSearch(event) {
   searchCity(searchInput.value);
 }
 
+function displayForecast() {
+  let days = ["Wed", "Thu", "Fri", "Sat", "Sun"];
+  let forecastHtml = "";
+
+  days.forEach(function (day) {
+    forecastHtml =
+      forecastHtml +
+      `
+  <div class="weather-forecast-day">
+    <div class="weather-forecast-date">${day}</div>
+    <div class="weather-forecast-icon">🌥️</div>
+    <div class="weather-forecast-temperatures">
+        <div class="weather-forecast-temp">7°</div>
+        <div class="weather-forecast-temp"><strong>19°</strong></div>
+    </div>
+  </div>
+        `;
+  });
+
+  let forecastElement = document.querySelector("#forecast");
+  forecastElement.innerHTML = forecastHtml;
+}
+
 let searchFormElement = document.querySelector("#search-form");
 searchFormElement.addEventListener("submit", processSearch);
 
 searchCity("Roma");
+displayForecast();
